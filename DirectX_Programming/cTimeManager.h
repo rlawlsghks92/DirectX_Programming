@@ -8,6 +8,7 @@ private:
 	int m_nFrameCount;
 	int m_nAccElapsedTime;
 	int m_nFPS;
+	int a;
 	int m_nPrevFPS;
 	int m_nStaticTime;
 	cTimeManager();
