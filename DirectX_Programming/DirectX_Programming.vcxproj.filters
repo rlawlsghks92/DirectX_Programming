@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Window_Main">
+      <UniqueIdentifier>{af182d12-6061-4728-81e9-eac29d758781}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{3653b73c-919f-4c75-9856-d326711914c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InputManager">
+      <UniqueIdentifier>{2617ecf6-10cb-44ec-beb3-56ab560733a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{cc056ae4-8791-4804-9f87-7731f967d0cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\cButton">
+      <UniqueIdentifier>{a29db9da-781e-4593-925f-1d9cb10d967a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\MainGame">
+      <UniqueIdentifier>{96346c59-456b-427e-85d0-49e38b9186c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\sceneSolarSystem">
+      <UniqueIdentifier>{94255e75-c895-4ad7-a0d0-1efeff22e974}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utill">
+      <UniqueIdentifier>{92c0525c-5d07-4484-9336-cfe6a6e555a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{583a721b-96c4-4cb7-8b91-8c1767f4380b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\SolarSystem">
+      <UniqueIdentifier>{aa13b5c5-1b3a-439f-a1ff-38d740e20747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\SolarSystem\Sun">
+      <UniqueIdentifier>{02cef96d-9718-41dd-bcb0-146b68d1f3a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\SolarSystem\Earth">
+      <UniqueIdentifier>{dedb01f8-f58c-4af4-aab3-4d62edd68a29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\SolarSystem\Moon">
+      <UniqueIdentifier>{abcfe68d-02d5-42d4-913a-312130660bf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utill\TimeManager">
+      <UniqueIdentifier>{28ab7cbc-a7fb-4e18-9ab8-b60c754761eb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX_Programming.h">
+      <Filter>Window_Main</Filter>
+    </ClInclude>
+    <ClInclude Include="cMainGame.h">
+      <Filter>Scene\MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>InputManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cButton.h">
+      <Filter>UI\cButton</Filter>
+    </ClInclude>
+    <ClInclude Include="eButton.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="sSolarSystem.h">
+      <Filter>Scene\sceneSolarSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="sSSSun.h">
+      <Filter>Object\SolarSystem\Sun</Filter>
+    </ClInclude>
+    <ClInclude Include="sSSMoon.h">
+      <Filter>Object\SolarSystem\Moon</Filter>
+    </ClInclude>
+    <ClInclude Include="sSSEarth.h">
+      <Filter>Object\SolarSystem\Earth</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="cTimeManager.h">
+      <Filter>Utill\TimeManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX_Programming.cpp">
+      <Filter>Window_Main</Filter>
+    </ClCompile>
+    <ClCompile Include="cMainGame.cpp">
+      <Filter>Scene\MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>InputManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cButton.cpp">
+      <Filter>UI\cButton</Filter>
+    </ClCompile>
+    <ClCompile Include="sSolarSystem.cpp">
+      <Filter>Scene\sceneSolarSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="sSSSun.cpp">
+      <Filter>Object\SolarSystem\Sun</Filter>
+    </ClCompile>
+    <ClCompile Include="sSSMoon.cpp">
+      <Filter>Object\SolarSystem\Moon</Filter>
+    </ClCompile>
+    <ClCompile Include="sSSEarth.cpp">
+      <Filter>Object\SolarSystem\Earth</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="cTimeManager.cpp">
+      <Filter>Utill\TimeManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DirectX_Programming.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="DirectX_Programming.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
