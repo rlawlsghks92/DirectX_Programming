@@ -24,6 +24,8 @@ Object::Object()
 
 	dwFVF = 0x00000000;
 	isLighting = false;
+	// test
+	int a = 0;
 }
 
 
